@@ -5,7 +5,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 import tensorflow as tf
 
 # 读取数据
-mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
+mnist = input_data.read_data_sets("MINIST_data/", one_hot=True)
 # 建立会话
 sess = tf.InteractiveSession()
 
